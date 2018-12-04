@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Epay Halyk</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    
+
+    </head>
+    <body>
+        <div id="form-container">
+            <form action="">
+                <div id="card-front">
+                    <div id="shadow"></div>
+
+                    <!-- Информация по заказу -->
+                    <div id="image-container">
+                        <span id="order">Order: <strong>123423112</strong></span>
+                        <span id="amount">Total: <strong>100 000</strong></span>
+                        <span id="card-image"></span>
+                    </div>
+                    <!--- end card image container --->
+                    <div id="card-number-field">
+                        <label for="card-number">Card Number</label>
+                        <input type="text" id="card-number" placeholder="XXXX-XXXX-XXXX-XXXX">
+                    </div>
+                    <div id="cardholder-container">
+                        <label for="card-holder">Card Holder</label>
+                        <input style="text-transform:uppercase" type="text" id="card-holder" placeholder="NAME SURNAME" />
+                    </div>
+                    <!--- end card holder container --->
+                    <div id="exp-container">
+                        <label for="card-exp">Expiration</label>
+                        <input id="card-month" type="text" placeholder="MM" length="2">
+                        <input id="card-year" type="text" placeholder="YY" length="2">
+                    </div>
+                    <div id="cvc-container">
+                        <label for="card-cvc">CVC/CVV</label>
+                        <input id="card-cvc" placeholder="XXX-X" type="text">
+                        <p>Last 3 or 4 digits</p>
+                    </div>
+                    <!--- end CVC container --->
+                    <!--- end exp container --->
+                </div>
+                    <!--- end card front --->
+                <div id="card-back">
+                    <div id="card-stripe">
+                    </div>            
+                </div>
+                    <!--- end card back --->
+                <div id="info-container">
+                    <div id="holderEmail" >
+                        <label for="holder-email">Holder Email</label>
+                        <input type="text" id="holder-email" placeholder="Email">
+                    </div>
+
+                    <div id="holderPhone">
+                        <label for="holder-phone">Holder Phone</label>
+                        <input type="text" id="holder-phone" placeholder="Phone">
+                    </div>
+                </div>
+                <input type="text" id="card-token" />
+                <button type="submit" class="btn btn-default" id="confirm-purchase">Submit</button>
+            </form>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
+

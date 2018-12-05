@@ -2,28 +2,7 @@ body{
     background-color: #00805f;
 }
 
-/* body {
-    margin: 0;
-    padding: 0;
-    background-color: #c0c6cc;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    min-height: 100vh;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    font-family: 'Raleway';
-} */
-
-.backgroundForm{
+/* .backgroundForm{
     max-width: 1000px;
     margin: auto;
 }
@@ -48,10 +27,70 @@ span.rightSide{
     width: 500px;
     height: 630px;      
     background-color: #ffffff; 
-}
-
+} */
 
 .payment-title {
     width: 100%;
     text-align: center;
+}
+
+@media (min-width: 1440px) {
+  
+    .backgroundForm{
+        max-width: 1000px;
+        margin: auto;
+    }
+    
+    span.leftSide{
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+        margin-top: 30px;
+        float: left;
+        width: 500px;
+        height: 630px;      
+        background-color: #fbae16; 
+        box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    span.rightSide{
+        box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
+        margin-top: 30px;
+        float: left;
+        width: 500px;
+        height: 630px;      
+        background-color: #ffffff; 
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+
+    .backgroundForm{
+        max-width: 800px;
+        margin: auto;
+    }
+    
+    span.leftSide{
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+        margin-top: 30px;
+        float: left;
+        width: 400px;
+        height: 530px;      
+        background-color: #fbae16; 
+        box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    span.rightSide{
+        box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
+        margin-top: 30px;
+        float: left;
+        width: 400px;
+        height: 530px;      
+        background-color: #ffffff; 
+    }
 }

@@ -37,7 +37,7 @@ span.rightSide{
 @media (min-width: 1440px) {
   
     .backgroundForm{
-        max-width: 1000px;
+        width: 1000px;
         margin: auto;
     }
     
@@ -68,7 +68,7 @@ span.rightSide{
 @media (min-width: 1025px) and (max-width: 1439px) {
 
     .backgroundForm{
-        max-width: 1000px;
+        width: 1000px;
         margin: auto;
     }
     

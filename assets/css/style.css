@@ -32,7 +32,7 @@ body{
         background-color: #ffffff; 
     }
     
-    /* Title */
+    
     .payment-title {
         width: 100%;
         text-align: center;
@@ -69,7 +69,7 @@ body{
         background-color: #ffffff; 
     }
     
-    /* Title */
+    
     .payment-title {
         width: 100%;
         text-align: center;
@@ -97,7 +97,7 @@ body{
     font-family: 'Raleway';
 } */
 
-.backgroundForm{
+/* .backgroundForm{
     max-width: 1000px;
     margin: auto;
 }
@@ -124,10 +124,10 @@ span.rightSide{
     background-color: #ffffff; 
 }
 
-/* Title */
+
 .payment-title {
     width: 100%;
     text-align: center;
-}
+} */
 
 
